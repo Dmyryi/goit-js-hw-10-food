@@ -4,7 +4,7 @@ import './sass/main.scss';
 import menu from './templates/menu.hbs';
 import template from './templates/main-template.hbs';
 import menuData from './menu.json';
-import storage from './js/utils/storage';
+import storage from './js/utils/storage.js';
 
 const body = document.querySelector('body');
 const Theme = {
