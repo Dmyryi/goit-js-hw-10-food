@@ -8,7 +8,7 @@ import storage from './js/utils/storage.js';
 
 const body = document.querySelector('body');
 const Theme = {
-    LIGHT: 'light-theme',
+    LIGHTy: 'light-theme',
     DARK: 'dark-theme',
 };
 const CHECKED_THEME_STATE = 'checkedThemeState';
