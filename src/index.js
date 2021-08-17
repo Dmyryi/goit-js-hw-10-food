@@ -2,6 +2,7 @@ import './sass/main.scss';
 // import template from './templates/template.hbs';
 import menu from './templates/menu.hbs';
 import template from './templates/template.hbs';
+f
 import menuData from './menu.json';
 import storage from './js/utils/storage.js';
 
