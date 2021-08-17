@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Homework 10</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
 </head>
 
 <body>
@@ -20,8 +21,7 @@
 
             <div class="theme-switch__control">
                 <input class="theme-switch__toggle" type="checkbox" name="theme" id="theme-switch-toggle" aria-label="Переключить между тёмной и светлой темой" />
-                <label aria-hidden="true" class="theme-switch__track" for="theme-switch-toggle">
-          </label>
+                <label aria-hidden="true" class="theme-switch__track" for="theme-switch-toggle"> </label>
                 <div aria-hidden="true" class="theme-switch__marker"></div>
             </div>
 
@@ -33,6 +33,9 @@
 
     <!-- В этот список рендери разметку меню -->
     <ul class="menu js-menu"></ul>
+    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+    <!-- <include src="./partials/example.html"></include> -->
+    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
 </body>
 
